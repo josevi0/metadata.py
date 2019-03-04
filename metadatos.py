@@ -1,10 +1,7 @@
-#Fuente: https://pypi.org/project/PyPDF2/ | https://pypi.org/project/termcolor/
 
-# -*- encoding: utf-8 -*-
-'''
-Notas:
-La función "walk" es útil para recorrer todos los ficheros y directorios que se encuentran incluidos en un directorio concreto.
-'''
+#!/usr/bin/python
+# -*- encoding: utf-8 -*- 
+
 from PyPDF2 import PdfFileReader, PdfFileWriter # importamos modulo y librerias
 import os # importamos modulo os para ir a otras carpetas
 import sys
